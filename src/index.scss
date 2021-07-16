@@ -5,16 +5,25 @@
 	padding: 0;
 }
 
+ul, li {
+  margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
 html {
 	font-size: 62.5%;
 	font-family: "Poppins", sans-serif;
+  font-weight: 200;
   color: rgba(255, 255, 255, .9);
 }
 
 body {
 	font-size: 1.6rem;
 	min-height: 100vh;
-	background-image: linear-gradient(145deg, #E8C2F2, #C2F2F2);
+	background-image: linear-gradient(145deg, #daaae6, #aee6e6);
 	background-repeat: no-repeat;
 	display: flex;
 	flex-direction: column;

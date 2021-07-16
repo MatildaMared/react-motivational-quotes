@@ -1,4 +1,87 @@
 .footer {
-    background-color: #76328611;
-    padding: 2rem 1rem;
+	background-color: #76328611;
+	padding: 3rem 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.copyright {
+	font-size: 1.8rem;
+	margin: 1rem 0;
+}
+
+.contact {
+	&__list {
+		list-style-type: none;
+		display: flex;
+	}
+
+	&__item {
+		margin-right: 2rem;
+
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+
+	&__link {
+		line-height: 1;
+		font-size: 3.5rem;
+		color: rgba(255, 255, 255, 0.7);
+		position: relative;
+	}
+
+	.icon {
+		transition: all 0.5s;
+
+		&:hover {
+			color: rgba(255, 255, 255, 0.4);
+		}
+	}
+}
+
+#github {
+	&:hover {
+		&::before {
+			content: "GitHub";
+      font-size: 1.4rem;
+      color: #FFF;
+      text-align: center;
+			position: absolute;
+			top: 80%;
+			left: 50%;
+      transform: translateX(-50%);
+		}
+	}
+}
+
+#mail {
+	&:hover {
+		&::before {
+			content: "Mail";
+      font-size: 1.4rem;
+      color: #FFF;
+      text-align: center;
+			position: absolute;
+			top: 80%;
+			left: 50%;
+      transform: translateX(-50%);
+		}
+	}
+}
+
+#linkedin {
+	&:hover {
+		&::before {
+			content: "LinkedIn";
+      font-size: 1.4rem;
+      color: #FFF;
+      text-align: center;
+			position: absolute;
+			top: 80%;
+			left: 50%;
+      transform: translateX(-50%);
+		}
+	}
 }
