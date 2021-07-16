@@ -1,4 +1,10 @@
 .header {
-  padding: 2rem 1rem;
-  background-color: #76328611;
+  padding: 4rem 3rem;
+	background-image: linear-gradient(to right, #76328627, #49a7a723);
+	background-repeat: no-repeat;
+
+  &__heading {
+    font-size: 4rem;
+    text-shadow: 0 .5rem .5rem #76328628;
+  }
 }
