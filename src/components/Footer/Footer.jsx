@@ -13,7 +13,7 @@ const Footer = () => {
 							target="_blank"
 							id="github"
 							className="contact__link">
-							<i class="icon bx bxl-github bx-tada-hover"></i>
+							<i className="icon bx bxl-github bx-tada-hover"></i>
 						</a>
 					</li>
 					<li className="contact__item">
@@ -21,7 +21,7 @@ const Footer = () => {
 							href="mailto:matildamared@live.se"
 							id="mail"
 							className="contact__link">
-							<i class="icon bx bx-mail-send bx-tada-hover"></i>
+							<i className="icon bx bx-mail-send bx-tada-hover"></i>
 						</a>
 					</li>
 					<li className="contact__item">
@@ -30,7 +30,7 @@ const Footer = () => {
 							target="_blank"
 							id="linkedin"
 							className="contact__link">
-							<i class="icon bx bxl-linkedin-square bx-tada-hover"></i>
+							<i className="icon bx bxl-linkedin-square bx-tada-hover"></i>
 						</a>
 					</li>
 				</ul>
